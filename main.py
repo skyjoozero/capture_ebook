@@ -42,13 +42,13 @@ if __name__ == '__main__':
 
     pages = int(input('페이지 입력: ').strip())
 
-    input('left upper position')
+    input('left upper position (cursor on and enter)')
     settingLeftXPos, settingLeftYPos = mouse.position
 
-    input('right lower position')
+    input('right lower position (cursor on and enter)')
     settingRightXPos, settingRightYPos = mouse.position
 
-    input('next button')
+    input('next button (cursor on and enter)')
     nextButtonXPos, nextButtonYPos = mouse.position
 
     print('창을 최소화')
